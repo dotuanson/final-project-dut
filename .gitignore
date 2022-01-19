@@ -1,0 +1,8 @@
+venv/
+documents/
+evidence/
+datasets/
+MODNet/pretrained/modnet_webcam_portrait_matting.ckpt
+MODNet/pretrained/modnet_webcam_portrait_matting.ckpt
+MODNet/pretrained/modnet_photographic_portrait_matting.ckpt
+MODNet/pretrained/modnet_photographic_portrait_matting.onnx
