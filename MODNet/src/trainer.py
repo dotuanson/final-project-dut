@@ -182,9 +182,6 @@ def supervised_training_iter(
     loss.backward()
     optimizer.step()
 
-    # add
-    torch.save(modnet.state_dict(), "test.pt")
-
     # for test
     return semantic_loss, detail_loss, matte_loss
 

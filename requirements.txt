@@ -1,3 +1,9 @@
 scipy
 scikit-image
 opencv-python
+tqdm
+pyyaml
+
+# tensorboard
+tensorboard
+future

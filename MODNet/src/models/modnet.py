@@ -228,7 +228,7 @@ class MODNet(nn.Module):
         if self.backbone_pretrained:
             self.backbone.load_pretrained_ckpt()                
 
-    def forward(self, img, inference):
+    def forward(self, img, inference=False):
         pred_semantic, lr8x, [enc2x, enc4x] = self.lr_branch(img, inference)
         pred_detail, hr2x = self.hr_branch(img, enc2x, enc4x, lr8x, inference)
         pred_matte = self.f_branch(img, lr8x, hr2x)

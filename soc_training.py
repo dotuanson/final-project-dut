@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 bs = 1  # batch size
 lr = 0.00001  # learn rate
 epochs = 10  # total epochs
-height, width = 32, 32
+height, width = 512, 672
 
 torch_transforms = transforms.Compose(
     [

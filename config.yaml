@@ -1,0 +1,17 @@
+training:
+  summary_writer: "Test_dataset"
+  dataset_root: "./datasets"
+  training_file: "./datasets/training.txt"
+  validation_file: "./datasets/validation.txt"
+  weight_pretrained: null # author weights : "./MODNet/pretrained/modnet_photographic_portrait_matting.ckpt"
+  num_workers: 0
+  print_validation: 1
+
+hyper_parameter:
+  epochs: 8
+  batch_size: 2
+  learning_rate: 0.01
+  lr_schedule_epoch: 1
+  size:
+      height: 512
+      width: 672
