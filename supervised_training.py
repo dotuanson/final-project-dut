@@ -1,6 +1,6 @@
 import torch
 import os
-import cv2
+import cv2.cv2 as cv2
 import numpy as np
 import yaml
 from tqdm import tqdm
@@ -11,7 +11,7 @@ from MODNet.src.models.modnet import MODNet
 from MODNet.src.trainer import supervised_training_iter
 from torch.utils.data import Dataset, DataLoader
 from torch.utils.tensorboard import SummaryWriter
-from torchvision import transforms as transforms
+from torchvision import transforms
 from torch.multiprocessing import set_start_method
 from torchvision.utils import make_grid
 

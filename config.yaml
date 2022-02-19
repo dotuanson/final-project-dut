@@ -8,10 +8,10 @@ training:
   print_validation: 1
 
 hyper_parameter:
-  epochs: 8
+  epochs: 40
   batch_size: 2
   learning_rate: 0.01
-  lr_schedule_epoch: 1
+  lr_schedule_epoch: 10
   size:
       height: 512
       width: 672

@@ -1,6 +1,6 @@
 scipy
 scikit-image
-opencv-python
+opencv-contrib-python
 tqdm
 pyyaml
 

@@ -2,7 +2,7 @@ import copy
 import torch
 from MODNet.src.models.modnet import MODNet
 from MODNet.src.trainer import soc_adaptation_iter
-import cv2
+import cv2.cv2 as cv2
 from torch.utils.data import Dataset
 import os
 from PIL import Image

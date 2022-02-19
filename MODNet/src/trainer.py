@@ -312,7 +312,7 @@ def soc_adaptation_iter(
 
 
 def write_image(image, name):
-    import cv2
+    import cv2.cv2 as cv2
     test = image.cpu()
     test = test.detach().numpy()
     test = np.array(test)

@@ -12,7 +12,7 @@ python inference_onnx.py \
 """
 
 import os
-import cv2
+import cv2.cv2 as cv2
 import argparse
 import numpy as np
 from PIL import Image

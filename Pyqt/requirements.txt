@@ -1,0 +1,5 @@
+pyqt5
+pyqt5-tools
+pyqt5-stubs
+opencv-python
+opencv-python-headless
